@@ -1,3 +1,12 @@
-p {
-    color: red
+
+.A {
+    border: 1px blue solid;
+}
+.a {
+    float: left;
+    border: 1px red solid;
+}
+
+.a p {
+    color: grey;
 }

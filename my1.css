@@ -1,12 +1,74 @@
+body {
 
-.A {
-    border: 1px blue solid;
 }
+.hdline{
+    background-color:rgba(56,87,118,1);
+
+}
+.hdline h1{
+    text-align:center;
+    border:2px solid red;
+    margin:0px;
+}
+.fground{
+    background-color:rgba(178,214,249,1);
+}
+.rside{
+    margin-left:200px;
+    background-color:rgba(178,214,249,1);
+}
+.A {
+    border: 2px black solid;
+    overflow: auto;
+}
+
 .a {
     float: left;
+    border: 2px red solid;
+    width: 30%;
+
+}
+
+.B {
+    border: 2px red dashed;
+
+}
+
+.b {
+    color: purple;
     border: 1px red solid;
 }
 
-.a p {
-    color: grey;
+.C {
+    border: 2px red solid;
+
+}
+.leftcol{
+    background-color: rgba(60,179,113,.5);
+    position: fixed;
+    left:0px;
+    top:55px;
+    width:200px;
+    height:500px;
+    margin-left:5px;
+    overflow:hidden;
+}
+
+.somecont>p{
+    margin-bottom:0px;
+}
+.bge{
+    background-color:rgba(188,199,193,0.5);
+    width:100%;
+    height:200px;
+    margin:0;
+
+}
+.bgi{
+    background-image:url("iPhone.jpg");
+    width:100%;
+    height:200px;
+    position:fixed;
+    top:80%;
+    z-index:-1;
 }
